@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">"DesarrollandoUnaAplicacion"</string>
+    <string name="Formulario_Contacto">Formulario Contacto</string>
+    <string name="Confirmacion_Datos">Confirmacion De Datos</string>
+
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="descripcion_contacto">Descripcion Contacto</string>
+    <string name="descricion_contactotv">Descripcion Contacto:</string>
+    <string name="e_mail">E-mail</string>
+    <string name="telefono">Telefono</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="FechaNacimiento">Fecha De Nacimiento</string>
+    <string name="EditarDatos">Editar Datos</string>
+
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmacion_de_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    android:columnCount="2"
+    android:padding="8dp"
+
+    tools:context="com.example.robertoborges.desarrollandounaaplicacion.ConfirmacionDeDatos">
+
+
+    <ImageView
+        android:id="@+id/imagen_usuario"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/usuario1" />
+
+    <TextView
+        android:id="@+id/Nombre_Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:hint="@string/nombre_completo"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imagen_calendario"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/calendario" />
+
+    <TextView
+        android:id="@+id/Fecha_Nacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:hint="@string/FechaNacimiento"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imagen_telefono"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/guia_telefonica" />
+
+    <TextView
+        android:id="@+id/Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:hint="@string/telefono"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imagen_email"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/email" />
+
+    <TextView
+        android:id="@+id/E_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:hint="@string/e_mail"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/descricion_contactotv"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Descricion_Contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:background="#FFFFFF"
+        android:gravity="top|start"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Btn_EditarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="18dp"
+        android:background="@color/colorAccent"
+        android:onClick="Editar_Datos"
+        android:text="@string/EditarDatos"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</GridLayout>
